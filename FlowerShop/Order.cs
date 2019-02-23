@@ -7,7 +7,7 @@ namespace FlowerShop
     public class Order : IOrder, IIdentified
     {
         private List<Flower> flowers;
-        private bool isDelivered = false;
+        private bool isDelivered = true;
         public int Id { get; }
 
         // should apply a 20% mark-up to each flower.
